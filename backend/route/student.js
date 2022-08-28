@@ -118,7 +118,7 @@ router.post("/addreport",  async (req, res) => {
     try {
       console.log(email)
       const user = await Report.findOne({ BookID: bookId,Email:email })
-      if (user) throw Error("Report already exists");
+      // if (user) throw Error("Report already exists");
       const newUser = new Report({
         BookID:bookId,
         Email:email,
