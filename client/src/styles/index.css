@@ -1,0 +1,310 @@
+body {
+    background: url("https://img.freepik.com/premium-photo/front-view-elegant-library-with-stairs_360032-1282.jpg?w=2000") fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.95;
+    background-size: 100% 100%;
+}
+
+.buttonCompriser {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 300px;
+
+}
+
+.Button {
+    background-color: rgba(29, 156, 214, 0);
+    color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-style: oblique;
+    
+    /* justify-content: center; */
+    text-align: center;
+
+    padding: 0.5em 1.5em;
+    margin-top: 5px;
+    vertical-align: middle;
+    text-decoration: none;
+    font-size: 2em;
+    margin: auto;
+
+    border-radius: 25px;
+    width: 22%;
+
+}
+/* .Button:hover{
+
+} */
+
+
+/* 
+Login
+*/
+
+
+.container-login {
+    border: 5px solid wheat;
+    top: 30%;
+    position: absolute;
+    left: 40%;
+    color: black;
+    background-color: #4f94da00;
+    background: #4f94da00;
+}
+
+.container h1 {
+    font-size: 30px;
+    border-bottom: 45px;
+    margin-bottom: 25px;
+    padding: 12px 0 px;
+
+    background-color: #4f94da00;
+}
+
+
+
+.box-input {
+    width: 100%;
+    padding: 1px 10px;
+    background: #91caff11;
+    color: black;
+    background-color: #4f94da00;
+}
+
+.box input {
+
+    align-items: center;
+    width: 75%;
+    font-size: 20px;
+    margin: 12px 0px;
+    border: none;
+    outline: none;
+    padding: 34px 10px;
+    background-color: #4f94da00;
+
+}
+
+.btn {
+    cursor: pointer;
+    outline: none;
+    width: 25%;
+    margin: 12px 0px;
+    padding: 6px;
+    border: 2px solid rgba(200, 212, 212, 0.068);
+    border-radius: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+@import url('https://fonts.googleapis.com/css?family=Lato:100&display=swap');
+
+body,
+html {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    /* background: #5CA4EA; */
+    /* overflow: hidden; */
+    font-family: 'Lato', sans-serif;
+}
+
+.container {
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.center {
+    width: 180px;
+    height: 60px;
+    position: absolute;
+}
+
+.btn {
+    width: 180px;
+    height: 60px;
+    cursor: pointer;
+    background: transparent;
+    border: 1px solid #91C9FF;
+    outline: none;
+    transition: 1s ease-in-out;
+}
+
+
+svg {
+    position: absolute;
+    left: 0;
+    top: 0;
+    fill: none;
+    stroke: #fff;
+    stroke-dasharray: 150 480;
+    stroke-dashoffset: 150;
+    transition: 1s ease-in-out;
+}
+
+.btn:hover {
+    transition: 1s ease-in-out;
+    background: #4F95DA;
+}
+
+.btn:hover svg {
+    stroke-dashoffset: -480;
+}
+
+.btn span {
+    color: white;
+    font-size: 18px;
+    font-weight: 100;
+}
+
+
+/* CSS */
+.button-86 {
+  all: unset;
+  width: 100px;
+  height: 30px;
+  font-size: 16px;
+  background: transparent;
+  border: none;
+  position: relative;
+  color: #f0f0f0;
+  cursor: pointer;
+  z-index: 1;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-86::after,
+.button-86::before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: -99999;
+  transition: all .4s;
+}
+
+.button-86::before {
+  transform: translate(0%, 0%);
+  width: 100%;
+  height: 100%;
+  background: #28282d;
+  border-radius: 10px;
+}
+
+.button-86::after {
+  transform: translate(10px, 10px);
+  width: 35px;
+  height: 35px;
+  background: #ffffff15;
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border-radius: 50px;
+}
+
+.button-86:hover::before {
+  transform: translate(5%, 20%);
+  width: 110%;
+  height: 110%;
+}
+
+.button-86:hover::after {
+  border-radius: 10px;
+  transform: translate(0, 0);
+  width: 100%;
+  height: 100%;
+}
+
+.button-86:active::after {
+  transition: 0s;
+  transform: translate(0, 5%);
+}
+
+.Card1{
+    width: 50%;
+    display: flex;
+    float: left;
+  width: 50%;
+  padding: 0 10px;
+  height: 200px;
+  /* font-size: 500px; */
+}
+/* .Card2{
+    width: 50%;
+    
+} */
+/* CSS */
+.button-30 {
+  align-items: center;
+  appearance: none;
+  background-color: #FCFCFD;
+  border-radius: 4px;
+  border-width: 0;
+  box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px,rgba(45, 35, 66, 0.3) 0 7px 13px -3px,#D6D6E7 0 -3px 0 inset;
+  box-sizing: border-box;
+  color: #36395A;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: "JetBrains Mono",monospace;
+  height: 48px;
+  justify-content: center;
+  line-height: 1;
+  list-style: none;
+  overflow: hidden;
+  padding-left: 16px;
+  padding-right: 16px;
+  position: relative;
+  text-align: left;
+  text-decoration: none;
+  transition: box-shadow .15s,transform .15s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  will-change: box-shadow,transform;
+  font-size: 18px;
+}
+
+.button-30:focus {
+  box-shadow: #D6D6E7 0 0 0 1.5px inset, rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+}
+
+.button-30:hover {
+  box-shadow: rgba(45, 35, 66, 0.4) 0 4px 8px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+  transform: translateY(-2px);
+}
+
+.button-30:active {
+  box-shadow: #D6D6E7 0 3px 7px inset;
+  transform: translateY(2px);
+}
+
+.button-86 m-4 align-middle{
+  color: white;
+}
